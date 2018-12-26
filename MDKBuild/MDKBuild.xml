@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdkbuild>
+   <commit>https://tags</commit>
+   <baseline>
+      <prefix>01.00.00.</prefix>
+   </baseline>
+   <source name = "application">
+      <revision>-1</revision>
+      <source_url>https://trunk</source_url>
+      <version.c>\App\version.c</version.c>
+      <format name = 'const char Version[] __attribute__((used)) = "VERSION: %d VERSION";'></format>
+      <format name = 'const int revision __attribute__((used)) = %d;'></format>
+      <compiler>C:\Keil_v4\UV4\UV4.exe</compiler>
+      <project>\Project.uvproj</project>
+      <output>\Output</output>
+      <object name = "binary object.hex"></object>
+   </source>
+</mdkbuild>
