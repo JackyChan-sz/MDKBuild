@@ -11,6 +11,8 @@
       <format name = 'const char Version[] __attribute__((used)) = "VERSION: %d VERSION";'></format>
       <format name = 'const int revision __attribute__((used)) = %d;'></format>
       <compiler>C:\Keil_v4\UV4\UV4.exe</compiler>
+      <prevoption>...</prevoption>
+      <postoption>...</postoption>
       <project>\Project.uvproj</project>
       <output>\Output</output>
       <object name = "binary object.hex"></object>
