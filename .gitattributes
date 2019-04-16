@@ -1,2 +1,4 @@
-*.cpp linguist-language=C++
-*.xml linguist-language=c++
+*.cpp linguist-language=C
+*.xml linguist-language=C
+*.html linguist-language=C
+
