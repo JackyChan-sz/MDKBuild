@@ -1,20 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdkbuild>
-   <commit>https://tags</commit>
+   <commit>https://192.168.100.201/svn/RWDSoftware/P006_100(LASCA)/20-code/02-tags</commit>
    <baseline>
       <prefix>01.00.00.</prefix>
+	  <suffix>(LSCI)</suffix>
    </baseline>
-   <source name = "application">
+   <source name = "LSCI">
       <revision>-1</revision>
-      <source_url>https://trunk</source_url>
-      <version.c>\App\version.c</version.c>
-      <format name = 'const char Version[] __attribute__((used)) = "VERSION: %d VERSION";'></format>
-      <format name = 'const int revision __attribute__((used)) = %d;'></format>
-      <compiler>C:\Keil_v4\UV4\UV4.exe</compiler>
-      <prevoption>...</prevoption>
-      <postoption>...</postoption>
-      <project>\Project.uvproj</project>
-      <output>\Output</output>
-      <object name = "binary object.hex"></object>
+      <source_url>https://192.168.100.201/svn/RWDSoftware/P006_100(LASCA)/20-code/01-trunk/02-LSCI/</source_url>
+	  <revision_url>https://192.168.100.201/svn/RWDSoftware/P006_100(LASCA)/20-code/01-trunk/02-LSCI/Lsci</revision_url>
+      <version.c>\Lsci\Properties\AssemblyInfo.cs</version.c>
+      <format name = 'using System.Reflection;'>ignore</format>
+      <format name = 'using System.Runtime.CompilerServices;'>ignore</format>
+      <format name = 'using System.Runtime.InteropServices;'>ignore</format>
+      <format name = ''>ignore</format>
+      <format name = '// 有关程序集的常规信息通过以下'>ignore</format>
+      <format name = '// 特性集控制。更改这些特性值可修改'>ignore</format>
+      <format name = '// 与程序集关联的信息。'>ignore</format>
+      <format name = '[assembly: AssemblyTitle("Lsci")]'>ignore</format>
+      <format name = '[assembly: AssemblyDescription("")]'>ignore</format>
+      <format name = '[assembly: AssemblyConfiguration("")]'>ignore</format>
+      <format name = '[assembly: AssemblyCompany("Microsoft")]'>ignore</format>
+      <format name = '[assembly: AssemblyProduct("Lsci")]'>ignore</format>
+      <format name = '[assembly: AssemblyCopyright("Copyright © Microsoft 2019")]'>ignore</format>
+      <format name = '[assembly: AssemblyTrademark("")]'>ignore</format>
+      <format name = '[assembly: AssemblyCulture("")]'>ignore</format>
+      <format name = ''>ignore</format>
+      <format name = '// 将 ComVisible 设置为 false 使此程序集中的类型'>ignore</format>
+      <format name = '// 对 COM 组件不可见。  如果需要从 COM 访问此程序集中的类型，'>ignore</format>
+      <format name = '// 则将该类型上的 ComVisible 特性设置为 true。'>ignore</format>
+      <format name = '[assembly: ComVisible(false)]'>ignore</format>
+      <format name = ''>ignore</format>
+      <format name = '// 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID'>ignore</format>
+      <format name = '[assembly: Guid("7d986528-4650-46bf-93ee-f04d3c950972")]'>ignore</format>
+      <format name = ''>ignore</format>
+      <format name = '// 程序集的版本信息由下面四个值组成: '>ignore</format>
+      <format name = '//'>ignore</format>
+      <format name = '//      主版本'>ignore</format>
+      <format name = '//      次版本'>ignore</format>
+      <format name = '//      生成号'>ignore</format>
+      <format name = '//      修订号'>ignore</format>
+      <format name = '//'>ignore</format>
+      <format name = '// 可以指定所有这些值，也可以使用“生成号”和“修订号”的默认值，'>ignore</format>
+      <format name = '// 方法是按如下所示使用“*”: '>ignore</format>
+      <format name = '// [assembly: AssemblyVersion("1.0.*")]'>ignore</format>
+      <format name = '[assembly: AssemblyVersion("01.00.00.%d")]'></format>
+      <format name = '[assembly: AssemblyFileVersion("01.00.00.%d")]'></format>	  
+      <compiler>C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe</compiler>
+      <postoption>/Rebuild "Release|x86"</postoption>
+      <project>\Lsci\Lsci.csproj</project>
+      <object name = "\Lsci\bin\x86\Release\LSCI.exe"></object>
+      <object name = "\Lsci\bin\x86\Release\en-US\Lsci.resources.dll">en-US</object>
    </source>
 </mdkbuild>
